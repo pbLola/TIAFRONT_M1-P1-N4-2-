@@ -72,3 +72,26 @@ nav ul li a {
     -6px -6px 12px var(--shadow-light);
   transition: all 0.3s ease;
 }
+nav ul li a:hover {
+  background: var(--color-accent-pink);
+  color: var(--color-light);
+  box-shadow: inset 4px 4px 6px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px rgba(255, 255, 255, 0.6);
+}
+.hero {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: var(--radius-lg);
+  box-shadow: inset 6px 6px 12px var(--shadow-dark),
+    inset -6px -6px 12px var(--shadow-light);
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: var(--color-accent-green);
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+}
