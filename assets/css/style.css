@@ -30,3 +30,15 @@
   --radius-md: 16px;
   --radius-lg: 24px;
 }
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  font-size: var(--font-family);
+  font-size: var(--body);
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
