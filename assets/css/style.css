@@ -14,3 +14,18 @@ body {
   max-width: 1200px;
   margin: auto;
 }
+Tokens de Design :root {
+  --color-bg: #ffdab9;
+  --color-dark: #333333;
+  --color-light: #ffffff;
+  --color-accent-orange: #ff8c42;
+  --color-accent-pink: #ff6f91;
+  --color-accent-green: #20b2aa;
+  --color-accent-purple: #8a2be2;
+  --color-accent-yellow: #ffd166;
+  --shadow-light: #ffffff;
+  --shadow-dark: rgba(0, 0, 0, 0.15);
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+}
