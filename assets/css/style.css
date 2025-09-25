@@ -41,3 +41,34 @@ Tokens de Design :root {
   box-shadow: inset 6px 6pc 12px var(--shadow-dark),
     inset -6px -6px 12px var(--shadow-light);
 }
+Header header {
+  background: var(--color-bg);
+  padding: 1rem 0;
+  text-align: center;
+}
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-accent-purple);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 1rem;
+}
+nav ul li {
+  margin: 0 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--color-dark);
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--color-light);
+  background: var(--color-light);
+  box-shadow: 6px 6px 12px var(--shadow-dark),
+    -6px -6px 12px var(--shadow-light);
+  transition: all 0.3s ease;
+}
