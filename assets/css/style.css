@@ -3,10 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-html,
 body {
-  height: 100%;
-}
-body {
-  margin: 0;
+  font-family: "Poppins, sans-serif";
+  line-height: 1.6;
+  background-color: #ffdab9;
+  color: #000000;
 }
