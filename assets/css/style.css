@@ -29,3 +29,9 @@ Tokens de Design :root {
   --radius-md: 20px;
   --radius-lg: 28px;
 }
+.neu {
+  background: var(--color-bg);
+  border-radius: var(--radius-md);
+  box-shadow: 6px 6px 12px var(--shadow-dark),
+    -6px -6px 12px var(--shadow-light);
+}
