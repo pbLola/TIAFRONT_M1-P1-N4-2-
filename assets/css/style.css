@@ -35,3 +35,9 @@ Tokens de Design :root {
   box-shadow: 6px 6px 12px var(--shadow-dark),
     -6px -6px 12px var(--shadow-light);
 }
+.neu-inset {
+  background: var(--color-bg);
+  border-radius: var(--radius-md);
+  box-shadow: inset 6px 6pc 12px var(--shadow-dark),
+    inset -6px -6px 12px var(--shadow-light);
+}
