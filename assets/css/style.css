@@ -104,3 +104,16 @@ section.news h2 {
   font-size: 2rem;
   color: var(--color-accent-orange);
 }
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.news-card {
+  background: var(--color-light);
+  border-radius: var(--radius-md);
+  padding: 15px;
+  box-shadow: 6px 6px 12px var(--shadow-dark),
+    -6px -6px 12px var(--shadow-light);
+  transition: transform 0.2 ease;
+}
